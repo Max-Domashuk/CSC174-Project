@@ -4,21 +4,29 @@
   justify-content: center;
 }
 
-/*.information {
+.information {
   display: flex;
   flex-direction: column;
   width: 100%;
   justify-content: center;
   align-items: center; 
 }
-*/
+
 
 .information input{
   width: auto;
   height: auto;
   font-size: 15px;
   padding-left: 10px;
-  margin: 5px;
+  margin: 10px;
+}
+
+.patientInfo input{
+  width: auto;
+  height: auto;
+  font-size: 15px;
+  padding-left: 10px;
+  margin: 10px;
 }
 
 button {
@@ -33,7 +41,7 @@ button:hover {
 
 .Hospitals {
   display: flex;
-  /*align-items: center;*/
+  align-items: center;
   flex-direction: column;
   width: 100%;
 }  
@@ -47,6 +55,21 @@ button:hover {
   padding: 10px;
   font-family: 'Courier New', Courier, monospace;
 }
+.Patients {
+display: flex;
+flex-direction: column;
+width: 100%;
+justify-content: center;
+align-items: center; 
+}
+
+.patientInfo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center; 
+  }
 
 .Pat { 
   width: auto;
@@ -56,19 +79,6 @@ button:hover {
   display: flex;
   padding: 10px;
   font-family: 'Courier New', Courier, monospace;
-}
-.Emp { 
-  width: auto;
-  height: auto;
-  border: 1px solid black;
-  margin: 10px;
-  display: flex;
-  padding: 10px;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-.Emp h3{
-  margin: 10px;
 }
 
 .Pat h3 {
